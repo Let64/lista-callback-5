@@ -1,9 +1,11 @@
-function rocessarTexto(texto, callbackModificadora) {
-    callbackModificardora(texto)
+function processarTexto(texto, callbackModificadora) {
+    callbackModificadora(texto);
 }
 
-function processsarTexto (texto) {
-    console.log("senai valinhos")
-}
+processarTexto("senai valinhos", (t) => {
+    console.log(t.toUpperCase());
+})
+    
+
 
 
